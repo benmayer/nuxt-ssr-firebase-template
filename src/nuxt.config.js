@@ -31,6 +31,9 @@ export default {
   modules: [
   ],
 
+  // moving the build directory into firebase functions folder for deployment
+  buildDir: '../functions/.nuxt',
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
